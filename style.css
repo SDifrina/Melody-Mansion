@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Merriweather:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+
+#con1{
+    background:rgba(0,0,0,0.5) url("images/bg.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    height: 550px;
+    background-size: cover;
+}
+.r1 h6{
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: goldenrod;
+    font-family: 'Philosopher', sans-serif; 
+}
+.r2 h3{
+    letter-spacing: 3.5px;
+    font-size: 43px;
+    font-family: 'Bad Script', cursive;
+    font-family: 'Merriweather', serif;
+}
+
+
+.r3 h5{
+    font-family: 'Sevillana', cursive;
+    color: goldenrod;
+}
+.r3 h3{
+    font-family: 'Domine', serif;  
+}
+
+/* About */
+.r4 h2{
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+}
+.r4 p{
+    font-family: 'Philosopher', sans-serif; 
+    color: goldenrod;
+}
+.r5 h5{
+    font-size: 18px;
+}
+
+/* Choose us */
+.r6 h4{
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+} 
+.r7 i{
+    font-size: 42px;
+    color: goldenrod;
+}
+.r7 h4{
+    font-family: 'Merienda', cursive;
+}
+    /* .r8 btn{
+        color: goldenrod;
+    } */
+.c71{
+    border-right: 1px solid black;
+}
+.c72{
+    border-right: 1px solid black;
+}
+.c73{
+    border-right: 1px solid black;
+}
+
+
+/* About.html */
+#con2{
+    background:rgba(0,0,0,0.5) url("images/bg.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+    background-size: cover;
+}
+.r8 h4{
+    font-family: 'Domine', serif;  
+    font-size: 50px;
+}
+.r8 h5{
+    font-family: 'Sevillana', cursive;
+    color: goldenrod;
+}
+.r9 h4{
+    font-family: 'Cinzel', serif;
+    font-size: 35px;
+    color:navy;
+}
+.r9 h6{
+    font-family: 'Philosopher', sans-serif; 
+    /* color: goldenrod; */
+    font-size: 18px;
+}
+.r10 i{
+    font-size: 35px;
+    color: goldenrod;
+    padding-bottom: 10px;
+}
+.c101{
+    /* border-left: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2; */
+    border: 1px solid #d2d2d2;
+    padding: 50px;
+}
+.c102{
+    /* border-left: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2; */
+    border: 1px solid #d2d2d2;
+    padding: 50px;
+}
+.c103{
+    /* border-left: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2; */
+    border: 1px solid #d2d2d2;
+    padding: 50px;
+}
+.c104{
+    /* border-left: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2; */
+    border: 1px solid #d2d2d2;
+    padding: 50px;
+}
+#con3{
+    background-color: #f8f0e5;
+}
+.r11 h4{
+    font-family: 'Cinzel', serif;
+    font-size: 35px;
+    color:navy;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+}
+h2 {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 30px 0 60px;
+}
+h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	/* background: #8fbc54; */
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.carousel {
+	padding: 0 70px;
+}
+.carousel .carousel-item {
+	color: #e8e5e5;
+	font-size: 14px;
+	text-align: center;
+	overflow: hidden;
+	min-height: 290px;
+}
+.carousel .carousel-item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 30px 0 10px;
+}
+.carousel .overview {	
+	font-style: italic;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #7AA641;
+}
+.carousel-control-prev, .carousel-control-next {
+	width: 40px;
+	height: 40px;
+	margin-top: -20px;
+	top: 50%;
+	background: none;
+}
+.carousel-control-prev i, .carousel-control-next i {
+	font-size: 68px;
+	line-height: 42px;
+	position: absolute;
+	display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+	/* text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000; */
+}
+.carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 12px;
+	height: 12px;
+	margin: 1px 3px;
+	border-radius: 50%;
+	border: none;
+}
+.carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active {	
+	background: #555;		
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+
+
+
+/* Clients */
+#con4{
+    background:rgba(0,0,0,0)  url("images/bg3.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:500px;
+}
+.r12 h4{
+    font-family: 'Cinzel', serif;
+    font-size: 35px;
+    color:goldenrod;
+}
+.r13 img{
+    border-radius: 20px;
+    width: 50%;
+}
+
+
+/* Footer */
+#con5{
+    background-color:rgb(161, 161, 159);
+}
+.lists ul li{
+    list-style: none;
+}
+.lists ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 17px;
+}
+.c2 ul li{
+    list-style: none;
+    display:inline-block;
+    /* padding-right: 5px; */
+}
+.c2 ul li i{
+    padding-left: 10px; 
+    font-size: 20px;
+}
+.c2 ul li a{
+    color: black;
+}
+#con6{
+    background-color:rgb(100, 100, 99);
+}
+
+.r14 h4{
+    /* font-family: 'Alegreya', serif; */
+    font-family: 'Lora', serif;
+}
+#con5 p{
+    font-family: 'Abhaya Libre', serif;
+    font-size: 17px;
+}
+
+
+
+
+
+/* Rooms */
+#con7{
+    background-color: rgb(248, 240, 229);
+}
+.r14 h2{
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+}
+.r15 btn{
+    background-color: goldenrod;
+}
+#cdb{
+    background-color: rgb(255, 244, 226);
+}
+
+/* Juniorsuite.html */
+#con8{
+    background: url("images/bg5.jpg")no-repeat;
+    background-size: cover;
+    height:600px;
+}
+#r1 a {
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(244, 241, 237);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:400px;
+}
+.r17 h5{
+    font-family: 'Sevillana', cursive;
+    color: goldenrod;
+}
+.r17 h3{
+    font-family: 'Domine', serif;  
+}
+.r18 h4{
+    font-family: 'Cormorant Garamond', serif;
+}
+.lis li {
+    list-style: none;
+}
+.lis li i{
+    padding-right: 20px;
+    padding-bottom: 25px;
+    color: goldenrod;
+}
+.r19 p i{
+    padding-right:10px;
+    color: goldenrod;
+}
+.r20 h4{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+/* doubleroom.html */
+#con9{
+    background: url("images/bg6.jpg")no-repeat;
+    background-size:cover;
+    height:700px;
+    width: 100%;
+}
+
+/* familyroom.html */
+#con10{
+    background: url("images/bg7.jpg")no-repeat;
+    background-size: cover;
+    height:700px;
+}
+
+/* room.html */
+.r21 h4{
+    font-family: 'Cormorant Garamond', serif;       
+}
+.card-img-top {
+     border-top-left-radius: 0 !important;
+     border-top-right-radius: 0 !important;
+}
+.r22 video{
+     background-attachment: fixed;
+}
+
+/* Contact */
+.r23 h2{
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+}
+.r23 p{
+    font-family: 'Philosopher', sans-serif; 
+    color: goldenrod;
+}
+.r24 h4{
+    font-family: 'Cormorant Garamond', serif;
+}
+.r25 i{
+    font-size: 30px;
+    padding-top: 18px;
+    color: goldenrod;
+}
+.r25 h4{
+    font-size: 25px;
+    font-family: 'Prata', serif;
+}
+
+
+/* Register.html */
+.c4 img{
+    border-radius: 15px;
+}
+.c5{
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+}
+.c5 input{
+    margin-bottom: 15px;
+}
+.c5 button{
+    padding: 5px;
+    background-color: goldenrod;
+}
+
+
+/* Navbar */
+.navbar-nav li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Overlock SC', sans-serif;
+    font-size: 20px;
+    /* margin-left: 25px; */
+}
+.navbar-nav li{
+    margin: 15px;
+}
+.hd1 h1{
+    margin-right: 25px;
+    font-family: 'Grechen Fuemen', cursive;
+}
+.navbar-nav li a:hover{
+    color: rgb(10, 181, 207);
+}
